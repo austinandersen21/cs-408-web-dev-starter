@@ -11,9 +11,19 @@
 </head>
 
 <body>
-  <h1>HTML Rocks!</h1>
+  <h1 style="color:blue;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">HTML Rocks!</h1>
+  
+  <ul style="font-size:30px;border:8px solid grey; padding: 40px; margin: 50px 30pc 0 0">
+    <li style="color:red">Austin Andersen</li>
+    <li>Expected to graduate in Spring 2027</li>
+    <li>I currently do not have a job in web development</li>
+    <li>So far I have not had a job or internship in web development, but I hope to some day</li>
+  </ul>
+  
+  <img src="AustinPic.jpg" alt="Profile Pic" style="width:200px;height:225px">
+
   <p>
-    <button  onclick="helloWorld()">Prints Hello World to the Developer console</button>
+    <button  onclick="showAlert()">Prints Hello World as an alert</button>
   </p>
   <hr>
   <form id="addForm">
@@ -34,11 +44,11 @@
   <p id="joke"></p>
 
   <script type="module" script="js/main.js">
-    import {helloWorld, add, fetchRandomJoke} from './js/main.js';
+    import {helloWorld, alert, add, fetchRandomJoke} from './js/main.js';
 
     // This shows how to assign a function to the window object
     // so that it can be called from the browser console
-    window.helloWorld = helloWorld;
+    window.helloWorld = helloworld;
 
     // This shows how to add an event listener to a button in the HTML
     // and call a function when the button is clicked
