@@ -27,3 +27,7 @@ To run the tests for the project, run the following command:
 ```bash
 npm test
 ```
+
+## How to run
+
+To run the website, you will either need to paste into your browser "127.0.0.1:3000" on your local machine, or you can use a live preview add-on in Vscode. 
