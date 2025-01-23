@@ -13,6 +13,10 @@ export function helloWorld() {
     console.log('Hello World');
 }
 
+export function alert() {
+    alert("Hello world");
+}
+
 /**
  * This function adds two numbers together and returns the sum. This demonstrates
  * how to pass parameters to a function and return a value from a function
